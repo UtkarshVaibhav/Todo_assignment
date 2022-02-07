@@ -1,0 +1,38 @@
+.strike{
+    text-decoration: line-through;
+    margin-left: 10px;
+}
+.normal{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.todoItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 124, 109);
+}
+.todoItemStrike{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(100, 255, 100);
+}
+.deleteBtn{
+    padding: 0 8px;
+    border-radius: 2px;
+}
+.editBtn{
+    padding: 2px 5px;
+    border-radius: 2px;
+    font-size: 10px;
+}
