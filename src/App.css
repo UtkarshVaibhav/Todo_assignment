@@ -18,15 +18,15 @@ ul li{
   background-color:olivedrab;
   padding: 7px 10px;
   color: white;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 .addinput{
   background-color:olivedrab;
   color: white;
   padding: 7px;
-  border-top-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .addinput::placeholder{
   color: white;

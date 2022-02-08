@@ -10,7 +10,7 @@
 .todoItem{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: black;
     font-size: 15px;
     padding: 10px;
@@ -20,7 +20,7 @@
 .todoItemStrike{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     color: black;
     font-size: 15px;
     padding: 10px;
@@ -28,11 +28,18 @@
     background-color: rgb(100, 255, 100);
 }
 .deleteBtn{
-    padding: 0 8px;
+    padding:  0px 8px;
     border-radius: 2px;
+    margin-left: 20px;
 }
 .editBtn{
-    padding: 2px 5px;
+    padding: 4px 8px;
     border-radius: 2px;
-    font-size: 10px;
+    font-size: 7px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 2px;
+}
+.editInput{
+    width: 100px;
 }
